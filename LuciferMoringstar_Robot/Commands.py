@@ -85,7 +85,6 @@ async def start(bot, message):
                 buttons = [
                     [
                         InlineKeyboardButton('✪ Join our Channel ✪', url='t.me/Mv_Main')
-                    ]
                     ],
                     [
                         InlineKeyboardButton('🔍 Search again 🔎', switch_inline_query_current_chat='')
