@@ -344,8 +344,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                         InlineKeyboardButton('✪ Join our Channel ✪', url='t.me/Mv_Main')
                     ]
                     ]
-                    ]
-                
+                    
                 await query.answer()
                 await client.send_cached_media(
                     chat_id=query.from_user.id,
